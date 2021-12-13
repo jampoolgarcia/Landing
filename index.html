@@ -11,15 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <nav class="container mx-auto px-2 bg-regal-blue flex items-start py-4 mt-4 sm:mt-12">
+        <nav class="container mx-auto px-2 bg-regal-blue flex items-center py-4 mt-4 sm:mt-12">
             <div class="py-1"><img src="./imgs/logo-bookmark.svg" alt="img"></div>
-            <ul class="hidden sm:flex flex-1">
-                
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bg-red uppercase text-xs">
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Prising</li>
+                <li class="cursor-pointer">Contact</li>
+                <button class="bg-red text-white rounded-md px-7 py-3 uppercase">login</button>
+                <div class="flex sm:hidden flex-1 justify-end">
+                    <i class="text-2xl fas fa-bars"></i>
+                </div>
             </ul>
         </nav>
     </header>
